@@ -7,8 +7,8 @@
 
 The following user is already seeding for testing:
 
-username: john
-password: john
+<p><b>username:</b> john </p>
+<p><b>password:</b> john</p>
 
 you are also free to create more users using the register endpoint
 
