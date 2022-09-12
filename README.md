@@ -3,6 +3,15 @@
     Callphone
 </h1>
 
+## Default test user
+
+The following user is already seeding for testing:
+
+username: john
+password: john
+
+you are also free to create more users using the register endpoint
+
 
 ## Using Callphone on POSTMAN
 After the JWT is generated upon a successful login, use "Authorization : 'generated.jwttoken.value'" to access the protected routes in POSTMAN
