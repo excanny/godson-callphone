@@ -20,8 +20,8 @@ After the JWT is generated upon a successful login, use "Authorization : 'genera
 
 | HTTP Verb    | Route          | Action | Used For    | Request | Expected Response/Action |
 | :---:         |     :---:      |         :---: | :---: |  :---: | :---: |
-| POST   | '/register'     | register action    | route to create a new user account   | {"name": "string", "username" : "string","password" : "string", "password_confirmation": "string"} | {"status": true,"message": "User successfully created" |
-| POST | '/login'      | login action     |route to login    |{"username" : "string","password" : "string"}    | Generates an JWT authentication token that allows access to protected endpoints    |
-| POST | '/uploadPhoto/'     | uploads photo    | uploads one photo   |{"file": "/imagepath"} |{ "status": true, "message": "Photo successfully uploaded"} |
+| POST   | '/api/register'     | register action    | route to create a new user account   | {"name": "string", "username" : "string","password" : "string", "password_confirmation": "string"} | {"status": true,"message": "User successfully created" |
+| POST | '/api/login'      | login action     |route to login    |{"username" : "string","password" : "string"}    | Generates an JWT authentication token that allows access to protected endpoints    |
+| POST | '/api/uploadPhoto/'     | uploads photo    | uploads one photo   |{"file": "/imagepath"} |{ "status": true, "message": "Photo successfully uploaded"} |
 
 
